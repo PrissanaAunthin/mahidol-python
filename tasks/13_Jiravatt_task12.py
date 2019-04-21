@@ -1,0 +1,5 @@
+full_name = input('What is your full name?: ')
+# print(full_name)
+name_splitted = full_name.split(' ')
+# print(name_splitted)
+print(name_splitted[1],name_splitted[0],'')
